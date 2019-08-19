@@ -3,14 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.udec.ejemploclase;
-
+package com.udec.caja_de_numeros;
+import java.util.Arrays;
+import java.util.Scanner;
 /**
  *
  * @author Admin
  */
-public class Persona {
-    String nombre;
-    String apellido;
-    String cedula;
+public class ClasePrincipal {
+    
+    public ClasePrincipal(){
+        
+    }
+    public static void main(String[] args){
+        ClaseVector obj = new ClaseVector();
+        obj.numeros();
+        
+    }
+    
 }
